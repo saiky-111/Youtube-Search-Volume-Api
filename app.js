@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const apiKey = 'AIzaSyDiwn4myVx-kDHF6pjt8DdtNSv2lF-GW_8'; //API
+
 
 //  HTML
 app.get('/', (req, res) => {

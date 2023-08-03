@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const app = express();
-const apiKey = 'AIzaSyDiwn4myVx-kDHF6pjt8DdtNSv2lF-GW_8'; //API
+const apiKey = 'AIzaSyDsG6yHm3uDvUvHdX7eB4YQMeG6n8BSRQg'; //API
 
 //  HTML
 app.get('/', (req, res) => {
@@ -80,7 +80,7 @@ app.get('/search', async (req, res) => {
         res.status(500).send('Error occurred while fetching data from YouTube API.');
     }
 });
-const port = process.env.PORT || 3010;
+const port = process.env.PORT || 3011;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
